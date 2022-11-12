@@ -1,0 +1,1059 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Bebas Neue', cursive;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/****** header section start ******/
+.mobile-menu{
+	display: none;
+}
+.delivery {
+	display: none;
+}
+.delivery p{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 0px 10px 0px 0px;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+}
+.delivery p img{
+	margin: 0px 10px 0px 0px;
+}
+.mobile-form{
+		display: none;
+	}
+.header{
+	width: 100%;
+	background: url("../images/1.png") center top no-repeat;
+	background-size: cover;
+	padding: 10px 0px 80px;
+}
+.menu{
+	width: 100%;
+	padding: 20px 0px;
+}
+.menu .top-menu{
+	width: 100%;
+	text-align: right;
+}
+.menu .top-menu p{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 0px 10px 0px 0px;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+}
+.menu .top-menu p img{
+	margin: 0px 10px 0px 0px;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #3d2514;
+	margin: 0px 0px 0px 25px;
+	font-family: 'Bebas Neue', cursive;
+	transition: all ease 0.3s;
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+	color: #bf2222;
+	letter-spacing: 3px;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+	color: #bf2222;
+	letter-spacing: 3px;
+}
+.banner{
+	width: 100%;
+	padding: 120px 0px;
+}
+.banner .content{
+	width: 100%;
+	padding: 60px 0px;
+}
+.sub h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	line-height: 32px;
+	width: 33%;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: 2px dashed #3d2514;
+	margin: 0px 0px 15px;
+	color: #3d2514;
+	padding: 5px 15px 3px 15px;
+}
+.content h1{
+	font-size: 120px;
+	line-height: 130px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 4px 5px 0px #fee8bc;
+	color: #3d2514;
+}
+.content h3{
+	font-size: 70px;
+	line-height: 80px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 4px 5px 0px #fee8bc;
+	color: #3d2514;
+}
+/****** header section end ******/
+/****** feature section start ******/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .left-card{
+	width: 98%!important;
+}
+.feature .card{
+	width: 100%;
+	position: relative;
+	border: 0px;
+	border-radius: 5px;
+	margin: 6.5px 0px 0px;
+}
+.feature .card .card-body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: translate(30px, 20px);
+}
+.feature .card .card-body h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px;
+	letter-spacing: 1px;
+}
+.feature .card .card-body h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px;
+	letter-spacing: 1px;
+}
+.feature .card .card-body .card-2{
+	width: 32%;
+}
+
+/****** feature section end ******/
+/****** services section start ******/
+.services{
+	width: 100%;
+	padding: 10px 0px 80px 0px;
+}
+.services .title{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+.services .title .subtitle{
+	width: 15%;
+	margin: 0px auto 30px;
+	padding: 20px 0px 15px 0px;
+	background: #ffc045;
+}
+.services .title .subtitle h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 0px;
+}
+.services .title h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+.services .title p{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin: 0px 10px 0px 0px;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+}
+.services .card{
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	border: 0px;
+	transition: all ease 0.3s;
+}
+.services .card img{
+	transition: all ease 0.3s;
+}
+.services .card:hover img{
+ 	transform: scale(1.1);
+ }
+.services .card .card-title{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.services .card .card-taxt{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin: 0px 10px 0px 0px;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+}
+ .services .middle-card{
+ 	padding-top: 56px;
+ }
+ .services .card .card-body .btn-primary{
+ 	padding: 14px 35px;
+ 	background: #bf2222;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	font-family: 'Alfa Slab One', cursive;
+ 	border-radius: 0px;
+ 	text-transform: uppercase;
+ 	border: 1px solid #bf2222;
+ 	margin-top: 10px;
+ 	font-weight: 400;
+ 	transition: all ease 0.3s;
+}
+ .services .card .card-body .btn-primary:hover,
+ .services .card .card-body .btn-primary:focus{
+ 	background: transparent;
+ 	color: #bf2222;
+ 	border: 1px solid #bf2222;
+
+ }
+ /****** services section end ******/
+ /****** slider section start ******/
+ .slider{
+ 	width: 100%;
+ 	padding: 0px 0px 0px 0px;
+ }
+ .slider .col-md-5{
+ 	padding: 40px 0px 0px 40px;
+ }
+.slider .owl-carousel{
+ 	width: 100%;
+ 	padding: 30px;
+ 	box-shadow: 10px 23px 20px #ccc;
+ }
+ .slider .owl-carousel .item h4{
+ 	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 0px;
+	letter-spacing: 1px;
+ }
+ .slider .owl-carousel .item h2{
+ 	font-family: 'Alfa Slab One', cursive;
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 0px 0px 35px 0px;
+	letter-spacing: 1px;
+ }
+ .slider .owl-carousel .item p{
+  	width: 88%;
+ 	font-size: 16px;
+	line-height: 26px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin: 0px 10px 0px 0px;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+ }
+ .slider .owl-theme .owl-dots{
+ 	text-align: left!important;
+ 	margin-top: -30px!important;
+ 	margin-left: 20px!important;
+ 	position: relative;
+ }
+ .slider .owl-theme .owl-dots .owl-dot.active span{
+ 	background: #ffc045;
+ }
+.slider .owl-theme .owl-dots span{
+	transition: all ease 0.3s!important;
+}
+.slider .owl-theme .owl-dots span:hover{
+	width: 30px;
+	background: #ffc045!important;
+}
+ /****** slider section end ******/
+  /****** contact section end ******/
+  .contact{
+	width: 100%;
+	background: url("../images/Im.png") center top; no-repeat;
+	background-size: cover;
+	padding: 140px 0px 250px 0px;
+	margin-bottom: -50px;
+}
+.contact .title{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+.contact .title h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 0px;
+}
+.contact .title h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+.contact .contact-form{
+	width: 65%;
+	margin: 0 auto;
+	padding-top: 50px;
+   }
+ .contact .contact-form .form-control{
+ 	padding: 15px;
+ 	margin: 10px 0px;
+ 	border: 1px solid #bebebe;
+ 	border-radius: 3px;
+ 	color: #3d3d3d;
+ 	font-family: 'Bebas Neue', cursive;
+ 	text-transform: uppercase;
+}
+.contact .contact-form .form-control:hover, .contact .contact-form .form-control:focus{
+	border: 1px solid #bf2222;
+}
+.form-control:focus{
+	    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%)!important;
+}
+.contact .contact-form .btn-primary{
+	width: 100%;
+	text-align: center;
+	padding: 14px 35px;
+ 	background: #bf2222;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	font-family: 'Alfa Slab One', cursive;
+ 	border-radius: 3px;
+ 	text-transform: uppercase;
+ 	border: 1px solid #bf2222;
+ 	margin-top: 10px;
+ 	font-weight: 400;
+ 	transition: all ease 0.3s;
+}
+ .contact .contact-form .btn-primary:hover,
+ .contact .contact-form .btn-primary:focus{
+ 	background: transparent;
+ 	color: #bf2222;
+ 	border: 1px solid #bf2222;
+}
+/****** contact section end ******/
+/****** footer section end ******/
+footer{
+	width: 95%;
+	background: url("../images/design1.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px 10px 0px;
+	margin: 50px auto;
+}
+footer p{
+	width: 59%;
+ 	font-size: 16px;
+	line-height: 26px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-top: 40px;
+	color: #cdc8c3;
+	font-family: 'Montserrat', sans-serif;
+}
+footer h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px;
+}
+footer h4 i{
+	padding-right: 20px;
+}
+footer .footer-info{
+	margin-top: 135px;
+}
+footer .footer-info h4{
+	margin: 10px;
+}
+footer .copyright p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #ccc5c0;
+}
+footer .social{
+	margin-top: 40px;
+}
+footer .social ul{
+	text-align: right;
+}
+footer .social ul li{
+	display: inline-block;
+	text-align: right;
+	list-style-type: none;
+}
+footer .social ul li a{
+	margin-left: 5px;
+	color: #090809;
+	background: #fff;
+	border-radius: 50px;
+	font-size: 16px;
+	padding: 8px 12px;
+	transition: all ease 0.3s;
+}
+footer .social ul li a:hover{
+	background: #bf2222;
+	color: #fff;
+	}
+footer .footer-bottom{
+	padding-top: 60px;
+}
+
+
+
+/****** footer section end ******/
+
+
+/******responsive css start ******/
+@media (min-width: 279px) and (max-width: 319px) {
+	.desktop-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.delivery {
+		display: block;
+	} 
+	.delivery p {
+    	text-align: center;
+   	}
+   	.navbar-brand{
+   		width: 65%;
+   	}
+   	.navbar-brand img{
+   		width: 100%;
+   	}
+   	.header{
+   		padding: 10px 0px 0px;
+   	}
+   	.sub h4{
+   		width: 100%;
+   		text-align: left;
+   	}
+   	.content h1 {
+	    font-size: 50px;
+	    line-height: 60px;
+	    text-align: left;
+	}
+	.content h3 {
+	    font-size: 30px;
+	    line-height: 40px;
+	    text-align: left;
+	}
+	.banner{
+		padding: 0px 0px 180px 0px;
+	}
+	.feature {
+	    padding: 0px 0px;
+	    margin-top: -80px;
+	}
+	.feature .card .card-body {
+	    transform: translate(0px, 0px);
+	}
+	.feature .left-card {
+	    width: 100%!important;
+	}
+	.feature .mb-4 .card-img-top {
+	    height: 150px!important;
+	}
+	.feature .mb-4{
+		margin-top: 25px;
+	}
+	.feature .card .card-body .card-2{
+		width: 100%;
+	}
+	.feature .card .card-body h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+	.services .title .subtitle {
+	    width: 70%;
+	    margin: 30px auto 15px;
+	}
+	.services .card .card-body .btn-primary{
+		padding: 14px 25px;
+	}
+	.services .title h1 {
+		font-size: 25px;
+	    line-height: 35px;
+	}
+	.services .card {
+	    padding: 10px;
+	}
+	.services {
+	    padding: 10px 0px 0px 0px;
+	}
+	.slider .owl-carousel .item h2 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.slider .owl-carousel .item h2 {
+	    margin: 0px 0px 15px 0px;
+	}
+	.slider .owl-carousel .item p {
+   		width: 100%;
+	}
+	.slider .col-md-5 {
+	    padding: 40px 0px 15px 0px;
+	    text-align: center;
+	}
+	.contact {
+	    padding: 60px 0px 60px 0px;
+	}
+	.contact .title h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.contact .contact-form {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+	.desktop-form{
+		display: none;
+	}
+	.mobile-form{
+		display: block;
+	}
+	.contact .contact-form .btn-primary {
+	    padding: 14px 15px;
+	}
+	.contact .email-field{
+		margin-top: 20px!important;
+	}
+	footer .footer-img{
+		width: 80%!important;
+	}
+	footer {
+	    width: 90%;
+	    padding: 60px 0px 10px 0px;
+	    text-align: center;
+	}
+	footer p {
+	    width: 100%;
+	}
+	footer .footer-info {
+	    margin-top: 70px;
+	}
+	footer .footer-bottom {
+	    padding-top: 30px;
+	}
+	footer .social {
+	    padding-bottom: 60px;
+	}
+	footer .social ul{
+		text-align: center;
+		padding-left: 0rem;
+	}
+	.navbar-toggler .fa{
+	color: #3d2514;
+	}
+		
+	
+		  
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.desktop-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.delivery {
+		display: block;
+	} 
+	.delivery p {
+    	text-align: center;
+   	}
+   	.navbar-brand{
+   		width: 65%;
+   	}
+   	.navbar-brand img{
+   		width: 100%;
+   	}
+   	.header{
+   		padding: 10px 0px 0px;
+   	}
+   	.sub h4{
+   		width: 285px;
+   		text-align: left;
+   		font-size: 16px;
+   		line-height: 26px;
+   		letter-spacing: 0px;
+   	}
+   	.content h1 {
+	    font-size: 60px;
+	    line-height: 70px;
+	    text-align: left;
+	}
+	.content h3 {
+	    font-size: 45px;
+	    line-height: 55px;
+	    text-align: left;
+	}
+	.banner{
+		padding: 0px 0px 180px 0px;
+	}
+	.feature {
+	    padding: 0px 0px;
+	    margin-top: -80px;
+	}
+	.feature .card .card-body {
+	    transform: translate(0px, 0px);
+	}
+	.feature .left-card {
+	    width: 100%!important;
+	}
+	.feature .mb-4 .card-img-top {
+	    height: 150px!important;
+	}
+	.feature .mb-4{
+		margin-top: 25px;
+	}
+	.feature .card .card-body .card-2{
+		width: 100%;
+	}
+	.feature .card .card-body h2{
+		font-size: 34px;
+    	line-height: 44px;
+	}
+	.services .title .subtitle {
+	    width: 65%;
+	    margin: 30px auto 15px;
+	}
+	.services .title h1 {
+		font-size: 30px;
+	    line-height: 40px;
+	}
+	.services .card {
+	    padding: 20px;
+	}
+	.services {
+	    padding: 10px 0px 0px 0px;
+	}
+	.slider .col-md-5 {
+	    padding: 0px 0px 0px 0px;
+	}
+	.slider .owl-carousel .item h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.slider .owl-carousel .item h2 {
+	    margin: 0px 0px 15px 0px;
+	}
+	.slider .owl-carousel .item p {
+   		width: 100%;
+	}
+	.slider .col-md-5 {
+	    padding: 40px 0px 15px 15px;
+	    text-align: center;
+	}
+	.contact {
+	    padding: 60px 0px 60px 0px;
+	}
+	.contact .title h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.contact .contact-form {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+	.desktop-form{
+		display: none;
+	}
+	.mobile-form{
+		display: block;
+	}
+	.contact .contact-form .btn-primary {
+	    padding: 14px 25px;
+	}
+	.contact .email-field{
+		margin-top: 20px!important;
+	}
+	footer .footer-img{
+		width: 80%!important;
+	}
+	footer {
+	    width: 90%;
+	    padding: 60px 0px 10px 0px;
+	    text-align: center;
+	}
+	footer p {
+	    width: 100%;
+	}
+	footer .footer-info {
+	    margin-top: 70px;
+	}
+	footer .footer-bottom {
+	    padding-top: 30px;
+	}
+	footer .social {
+	    padding-bottom: 60px;
+	}
+	footer .social ul{
+		text-align: center;
+		padding-left: 0rem;
+	}
+	.navbar-toggler .fa{
+	color: #3d2514;
+	}
+		  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.desktop-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.delivery {
+		display: block;
+	} 
+	.delivery p {
+    	text-align: center;
+   	}
+   	.navbar-brand{
+   		width: 65%;
+   	}
+   	.navbar-brand img{
+   		width: 100%;
+   	}
+   	.header{
+   		padding: 10px 0px 0px;
+   	}
+   	.sub h4{
+   		width: 63%;
+   		text-align: left;
+   		font-size: 16px;
+   		line-height: 26px;
+   		letter-spacing: 0px;
+   	}
+   	.content h1 {
+	    font-size: 60px;
+	    line-height: 70px;
+	    text-align: left;
+	}
+	.content h3 {
+	    font-size: 45px;
+	    line-height: 55px;
+	    text-align: left;
+	}
+	.banner{
+		padding: 0px 0px 180px 0px;
+	}
+	.feature {
+	    padding: 0px 0px;
+	    margin-top: -80px;
+	}
+	.feature .card .card-body {
+	    transform: translate(0px, 0px);
+	}
+	.feature .left-card {
+	    width: 100%!important;
+	}
+	.feature .mb-4 .card-img-top {
+	    height: 150px!important;
+	}
+	.feature .mb-4{
+		margin-top: 25px;
+	}
+	.feature .card .card-body h2{
+		font-size: 32px;
+    	line-height: 42px;
+	}
+	.services .title .subtitle {
+	    width: 65%;
+	    margin: 30px auto 15px;
+	}
+	.services .title h1 {
+		font-size: 30px;
+	    line-height: 40px;
+	}
+	.services .card {
+	    padding: 20px;
+	}
+	.services {
+	    padding: 10px 0px 0px 0px;
+	}
+	.slider .col-md-5 {
+	    padding: 0px 0px 0px 0px;
+	}
+	.slider .owl-carousel .item h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.slider .owl-carousel .item h2 {
+	    margin: 0px 0px 15px 0px;
+	}
+	.slider .owl-carousel .item p {
+   		width: 100%;
+	}
+	.slider .col-md-5 {
+	    padding: 40px 0px 15px 15px;
+	    text-align: center;
+	}
+	.contact {
+	    padding: 60px 0px 60px 0px;
+	}
+	.contact .title h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.contact .contact-form {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+	.desktop-form{
+		display: none;
+	}
+	.mobile-form{
+		display: block;
+	}
+	.contact .contact-form .btn-primary {
+	    padding: 14px 25px;
+	}
+	.contact .email-field{
+		margin-top: 20px!important;
+	}
+	footer .footer-img{
+		width: 80%!important;
+	}
+	footer {
+	    width: 90%;
+	    padding: 60px 0px 10px 0px;
+	    text-align: center;
+	}
+	footer p {
+	    width: 100%;
+	}
+	footer .footer-info {
+	    margin-top: 70px;
+	}
+	footer .footer-bottom {
+	    padding-top: 30px;
+	}
+	footer .social {
+	    padding-bottom: 60px;
+	}
+	footer .social ul{
+		text-align: center;
+		padding-left: 0rem;
+	}
+	.navbar-toggler .fa{
+	color: #3d2514;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.desktop-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.delivery {
+		display: block;
+	} 
+	.delivery p {
+    	text-align: center;
+   	}
+   	.navbar-brand{
+   		width: 35%;
+   	}
+   	.navbar-brand img{
+   		width: 100%;
+   	}
+   	.header{
+   		padding: 10px 0px 0px;
+   	}
+   	.sub h4{
+   		width: 62%;
+   		text-align: left;
+   	}
+   	.content h1 {
+	    font-size: 60px;
+	    line-height: 70px;
+	    text-align: left;
+	}
+	.content h3 {
+	    font-size: 45px;
+	    line-height: 55px;
+	    text-align: left;
+	}
+	.banner{
+		padding: 0px 0px 180px 0px;
+	}
+	.feature {
+	    padding: 0px 0px;
+	    margin-top: -80px;
+	}
+	.feature .card .card-body {
+	    transform: translate(20px, 50px);
+	}
+	.feature .left-card {
+	    width: 100%!important;
+	}
+	.feature .mb-4 .card-img-top {
+	    height: 250px!important;
+	}
+	.feature .mb-4{
+		margin-top: 25px;
+	}
+	.feature .card .card-body h2{
+		font-size: 45px;
+    	line-height: 55px;
+	}
+	.services .title .subtitle {
+	    width: 30%;
+	    margin: 30px auto 15px;
+	}
+	.services .title h1 {
+		font-size: 40px;
+	    line-height: 50px;
+	}
+	.services .title p{
+		padding: 0px 100px;
+	} 
+	.services .card {
+	    padding: 20px;
+	}
+	.services {
+	    padding: 10px 0px 0px 0px;
+	}
+	.slider .col-md-5 {
+		width: 100%;
+	    padding: 0px 0px 0px 0px;
+	}
+	.slider .col-md-7 {
+		width: 100%;
+	}
+	.slider .owl-carousel .item h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.slider .owl-carousel .item h2 {
+	    margin: 0px 0px 15px 0px;
+	}
+	.slider .owl-carousel .item p {
+   		width: 100%;
+	}
+	.slider .col-md-5 {
+	    padding: 40px 0px 15px 15px;
+	    text-align: center;
+	}
+	.contact {
+	    padding: 60px 0px 60px 0px;
+	}
+	.contact .title h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.contact .contact-form {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+	.desktop-form{
+		display: block;
+	}
+	.mobile-form{
+		display: none;
+	}
+	.contact .contact-form .btn-primary {
+	    padding: 14px 25px;
+	}
+	footer .footer-img{
+		width: 55%!important;
+	}
+	footer {
+	    width: 90%;
+	    padding: 60px 0px 10px 0px;
+	    text-align: center;
+	}
+	footer p {
+	    width: 100%;
+	}
+	footer .footer-info {
+	    margin-top: 70px;
+	}
+	footer .footer-bottom {
+	    padding-top: 30px;
+	}
+	footer .social {
+	    padding-bottom: 60px;
+	}
+	footer .social ul{
+		text-align: center;
+		padding-left: 0rem;
+	}
+	.navbar-toggler .fa{
+	color: #3d2514;
+	}
+		
+
+		  
+}
